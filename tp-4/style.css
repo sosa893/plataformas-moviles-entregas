@@ -1,0 +1,72 @@
+/* 1 */
+@media (min-width: 401px) {
+    body {
+        background-color: rgb(40, 60, 80);
+    }
+}
+
+/* 2 */
+@media (max-width: 799px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+/* 3 */
+@media (orientation: landscape) {
+    article {
+        max-width: 50ch;
+    }
+}
+
+/* 4 */
+@media (min-height: 200px) {
+    h1 {
+        background-color: #334;
+    }
+}
+
+/* 5 */
+@media print {
+    p {
+        font-family: serif;
+    }
+}
+
+/* 6 */
+@media (prefers-color-scheme: light) {
+    body, h1 {
+        background-color: #DDD;
+        color: #111;
+    }
+}
+
+/* 7 */
+@media (hover: none) and (pointer: coarse) {
+    a {
+        background-color: #212;
+        padding: 2px 5px;
+    }
+}
+
+/* 8 */
+@media (min-width: 800px) and (max-width: 899px) {
+    img {
+        display: none;
+    }
+}
+
+/* 9 */
+@media (min-width: 200px) and (max-width: 400px) {
+    img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+/* 10 */
+@media (resolution > 2dppx) {
+    article {
+        background-color: #667;
+    }
+}
