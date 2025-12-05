@@ -1,0 +1,45 @@
+/* 1 */
+body h1 {
+    text-align: center;
+}
+
+/* 2 */
+html p {
+    font-family: serif;
+}
+
+/* 3 */
+p#primer-parrafo {
+    background-color: #CEE;
+}
+
+/* 4 */
+#primer-parrafo em {
+    color: #933;
+}
+
+/* 5 */
+a, article#contenedor  a {
+    outline: 1px solid #333;
+}
+
+/* 6 */
+html body p.fuente.parrafo {
+    opacity: 100%;
+}
+
+/* 7. */
+p:not([id]) {
+    text-shadow: none;
+}
+
+/* 8 */
+html body p.fuente.parrafo {
+    color: #000 !important;
+}
+
+/* 9 */
+.complicado {
+    font-weight: bold;
+    color: #c62 !important;
+}
